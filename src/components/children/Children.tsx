@@ -3,7 +3,7 @@ import Comp2 from "../comp2/Comp2";
 import "./Children.css";
 
 type Props = {
-    children: ReactNode
+    children: ReactNode;
 };
 
 export default ({ children } : Props) => {
