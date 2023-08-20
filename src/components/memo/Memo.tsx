@@ -1,7 +1,9 @@
-import { useState } from "react";
+import { memo, useState } from "react";
+import Comp1 from "../comp1/Comp1";
 import Comp2 from "../comp2/Comp2";
 import "./Memo.css";
-import MemoComp1 from "../memo-comp1/MemoComp1";
+
+const MemoComp1 = memo(Comp1);
 
 export default () => {
     console.log('Memo rendered');
